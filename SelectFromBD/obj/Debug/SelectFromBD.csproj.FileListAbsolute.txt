@@ -1,0 +1,9 @@
+D:\C# projects\SelectFromBD\SelectFromBD\bin\Debug\SelectFromBD.exe.config
+D:\C# projects\SelectFromBD\SelectFromBD\bin\Debug\SelectFromBD.exe
+D:\C# projects\SelectFromBD\SelectFromBD\bin\Debug\SelectFromBD.pdb
+D:\C# projects\SelectFromBD\SelectFromBD\obj\Debug\SelectFromBD.Form1.resources
+D:\C# projects\SelectFromBD\SelectFromBD\obj\Debug\SelectFromBD.Properties.Resources.resources
+D:\C# projects\SelectFromBD\SelectFromBD\obj\Debug\SelectFromBD.csproj.GenerateResource.cache
+D:\C# projects\SelectFromBD\SelectFromBD\obj\Debug\SelectFromBD.csproj.CoreCompileInputs.cache
+D:\C# projects\SelectFromBD\SelectFromBD\obj\Debug\SelectFromBD.exe
+D:\C# projects\SelectFromBD\SelectFromBD\obj\Debug\SelectFromBD.pdb

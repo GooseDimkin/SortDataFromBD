@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectFromBD", "SelectFromBD\SelectFromBD.csproj", "{BB8BEC39-35D2-41CB-8275-25A0A0954191}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupSelecterFromDB", "SetupSelecterFromDB\SetupSelecterFromDB.vdproj", "{A88336C5-5000-427B-8C6B-AF94FE451C2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB8BEC39-35D2-41CB-8275-25A0A0954191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8BEC39-35D2-41CB-8275-25A0A0954191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8BEC39-35D2-41CB-8275-25A0A0954191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8BEC39-35D2-41CB-8275-25A0A0954191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88336C5-5000-427B-8C6B-AF94FE451C2D}.Debug|Any CPU.ActiveCfg = Debug
+		{A88336C5-5000-427B-8C6B-AF94FE451C2D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D99CDB69-9BF5-46F1-BE10-4D0AC6974C50}
+	EndGlobalSection
+EndGlobal
