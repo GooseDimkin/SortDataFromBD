@@ -37,6 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,6 +67,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(232, 20);
             this.textBox5.TabIndex = 12;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // label5
             // 
@@ -81,9 +83,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(25, 55);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(327, 13);
+            this.label6.Size = new System.Drawing.Size(337, 13);
             this.label6.TabIndex = 14;
-            this.label6.Text = "Например: C:\\Users\\Will\\Dropbox\\filelocation\\databasename.mdb";
+            this.label6.Text = "Например: C:\\Users\\Will\\Dropbox\\filelocation\\databasename.accdb";
             // 
             // label2
             // 
@@ -109,11 +111,22 @@
             this.dataGridView1.Size = new System.Drawing.Size(500, 150);
             this.dataGridView1.TabIndex = 16;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(266, 32);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 17;
+            this.button3.Text = "Обзор";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 426);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -141,6 +154,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button3;
     }
 }
 

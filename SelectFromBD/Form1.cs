@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.OleDb;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,11 +26,11 @@ namespace SelectFromBD
         {
 
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             string BDsource = textBox5.Text;
-            connectString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + BDsource;
+            connectString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source=" + BDsource;
             myConnection = new OleDbConnection(connectString);
             try
             {
@@ -69,6 +70,21 @@ namespace SelectFromBD
             }
 
             myConnection.Close();
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        OpenFileDialog ofd = new OpenFileDialog();
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if(ofd.ShowDialog() == DialogResult.OK)
+            {
+                textBox5.Text = ofd.FileName;
+            }
         }
     }
 }
